@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="cs3500css2.css">
+</head>
+<body>
+<div class="small-menu" onmouseenter="menuShow()" onmouseleave="menuHide()">
+<ul>
+	<li><a href="#">MENU</a></li>
+</ul>
+<div id="submenu">
+<ul>
+	<li><a href="#tutorials" onclick="menuHide()">Tutorials</a></li>
+	<li><a href="#browsers" onclick="menuHide()">Browsers</a></li>
+	<li><a href="#forums" onclick="menuHide()">Forums</a></li>
+	<li><a href="#forums" onclick="menuHide()">Standards</a></li>
+</ul>
+</div>
+</div>
+<div class="menu">
+<ul>
+	<li><a href="#tutorials">Tutorials</a></li>
+	<li><a href="#browsers">Browsers</a></li>
+	<li><a href="#forums">Forums</a></li>
+	<li><a href="#standards">Standards</a></li>
+</ul>
+</div>
+<div class="content">
+<h2 id="tutorials"> Tutorials</h2>
+<h2>HTML</h2>
+<h3><a href="http://htmldog.com/guides/html/">HTMLDog</a></h3>
+<p>htmldog.com is a website offering easy to understand HTML5 tutorials. The tutorials
+are basic enough for the complete novice yet progress to offer quite advanced techniques for the experienced 
+user. HTML5dog.com has a systematic approach while teaching the tutorials, they start with the basics and in a 
+step by step way teach you HTML5. I found it very helpful to be able to read through the tutorial completely 
+without being disturbed by offers to practice what I have learned. All in all, htmldog.com is a good resource 
+for the complete beginner to get an overview of HTML5 in a timely, basic, easy way.
+</p>
+<h3><a href="https://www.codecademy.com/">CodeAcademy</a></h3>
+<p>codeacademy.com has quite an interesting approach to HTML5 tutorials. Instead of giving you page after page 
+of straight HTML5, the main focus is for the user to practice what they have learned as they go. They have, on 
+the left pane, instructions on learning HTML5. On the right pane, there is a large window that allows you to 
+type in what you have learned and it will display the result of the entered code. I feel this is a very good 
+website for someone if they have gone through a few other tutorials. I found it a bit overwhelming for the 
+first time user. Also, you must make an account which could be a deterrent to some.</p>
+<h3><a href="http://www.w3schools.com/html/">W3Schools</a></h3>
+<p>w3schools.com has the most well rounded approach to learning HTML5. Their approach is simple, the main focus 
+is on learning HTML5 then at the bottom of each page is the code window that allows you to try what you have 
+learned. They cover everything that you need to know to make an HTML5 website, including how to save a file in 
+.html format. This tutorial was my personal favorite because they did not force you to try what you have 
+learned nor did they exclude the option but both were incorporated with the correct balance.</p>
+<h2>CSS</h2>
+<h3><a href="http://htmldog.com/guides/css/">HTMLDog</a></h3>
+<p>As with the HTML5 tutorial, the CSS tutorial from htmldog.com has little variance. 
+It allows the learner to start at the very beginning of CSS and slowly build your way to a very advanced state. 
+The tutorial allows you to go at your own pace while teaching you CSS step by step. I like htmldog.com for 
+learning CSS because it is very simple and easy to use but teaches you everything that you need to know about 
+it.</p>
+<h3><a href="http://www.w3schools.com/css/">W3Schools</a></h3>
+<p>w3schools.com comes through again with concerning CSS. The CSS tutorial is the same as their HTML5 one but 
+they teach you CSS instead. The tutorial starts at the top of the page with it teaching you the syntax of CSS 
+with examples, then offers you an opportunity at the bottom of the page to try it out yourself. I like this 
+tutorial very much because it teaches you in a clear, concise manner and lets you practice what you have 
+learned at the end.</p>
+<hr>
+<h2 id="browsers">Browsers</h2>
+<h3><a href="https://www.html5test.com/">HTML 5 test</a></h3>
+<p>Open this website in any browser to quickly tell what is and isn't compatable. Extensive lists seperated 
+into distinct catagories makes this a handy tool for finding every detail about many browsers. Click on 
+'compare'
+to similtaniously learn about five browsers at once. It supports almost every version of every 
+current browser  on desktops, mobile, and tablets. It also contains a list of recent site visits 
+showing the  browsers score, version, and operating system.</p>
+<h3><a href="http://www.w3schools.com/cssref/css3_browsersupport.asp">W3Schools</a></h3>
+<p>W3Schools provides a list of many common css3 features and shows which browsers support them. It 
+shows all
+the major browsers and the earliest version that supported the specific feature.</p>
+<hr>
+<h2 id="forums">Forums</h2>
+<h3><a href="http://www.htmlforums.com/">HTML Forums</a></h3> 
+<p>A straightforward forum for all of your html needs. Here there are discussions about the latest html 
+features and techniques, webhosting administration, tools for development, and pretty much anything else 
+related to web development. It also has plenty of tutorials for html aand analysis of websites.</p>
+<hr>
+<h2 id="standards">HTML 5 Standards</h2>
+<h3><a href="https://html.spec.whatwg.org/multipage/infrastructure.html">WhatWG</a></h3>
+<p>whatwg.org is a group of people who want to help to develop the web as it changes including 
+HTML. They have produced “living standards” for HTML meaning that they can change them as HTML 
+changes. These standards are a complete standard for anyone using HTML including everything from 
+the history of HTML to the syntax.</p> 
+
+</div>
+
+<script>
+function menuHide(){
+	document.getElementById("submenu").style.display = "none";
+}
+
+function menuShow(){
+	document.getElementById("submenu").style.display = "block";
+}
+</script>
+</body>
+</html>
