@@ -1,3 +1,6 @@
 [submodule "JS/Chart.js"]
 	path = JS/Chart.js
 	url = https://github.com/nnnick/Chart.js.git
+[submodule "JS/jquery-nstslider"]
+	path = JS/jquery-nstslider
+	url = https://github.com/lokku/jquery-nstslider.git
